@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smotra | Galerija</title>
+<meta name="description" content="Državna smotra">
+<meta name="author" content="Jakopović Petra">
+<link href="stil.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="ikona.png">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <script type="text/javascript" src="jquery-1.12.2.min.js"></script>
+     <script type="text/javascript" src="meni.js"></script>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+ <link rel="stylesheet" href="css/lightbox.css">
+    
+    </head>
+
+<body>
+      <a class="meni2"></a>
+    
+         <nav>
+         <ul>
+         	<li><a href="index.html">Početna</a></li>
+         	<li><a href="index1.html">Kategorije</a></li>
+             <li><a href="galerija.html">Galerija</a></li>
+         	<li><a href="kontakt.html">Kontakt</a></li>
+         </ul>
+        </nav>
+    <div id="glavni">
+      
+<img src="logo.png" width="100%"></div>
+        <div id="sadrzaj">
+       <h2>Galerija</h2>
+            <a href="fotografije/0001.jpg" data-lightbox="foto" data-title="Slika1"><img src="fotografije/0001.jpg" class="slike"></a>
+            <br>
+              <a href="fotografije/0002.jpg" data-lightbox="foto" data-title="Slika1"><img src="fotografije/0002.jpg" class="slike"></a>
+            <br>
+             <a href="fotografije/003.jpg" data-lightbox="foto" data-title="Slika1"><img src="fotografije/003.jpg" class="slike"></a>
+            <br>
+             <a href="fotografije/02.jpg" data-lightbox="foto" data-title="Slika1"><img src="fotografije/02.jpg" class="slike"></a>
+            <br>
+            <a href="fotografije/03.jpg" data-lightbox="foto" data-title="Slika1"><img src="fotografije/03.jpg" class="slike"></a>
+            <br>
+            <a href="fotografije/004.jpg" data-lightbox="foto" data-title="Slika1"><img src="fotografije/004.jpg" class="slike"></a>
+            <br>
+            <a href="fotografije/04.jpg" data-lightbox="foto" data-title="Slika1"><img src="fotografije/04.jpg" class="slike"></a>
+            <br>
+            <a href="fotografije/05.jpg" data-lightbox="foto" data-title="Slika1"><img src="fotografije/05.jpg" class="slike"></a>
+            <br>
+            <a href="fotografije/06.jpg" data-lightbox="foto" data-title="Slika1"><img src="fotografije/06.jpg" class="slike"></a>
+            <br>
+        </div>
+            
+<br />
+<tr1>
+    <h2>Linkovi:</h2>
+    <p> <a href="http://ss-prirodoslovno-graficka-zd.skole.hr/">Stranica Prirodoslovno-grafičke škole Zadar</a></p>
+    <p><a href="http://www.ss-prirodoslovno-graficka-zd.skole.hr/smotra">Državna Smotra GTiAVT</a></p>
+    <p><a href="http://www.ss-prirodoslovno-graficka-zd.skole.hr/upload/ss-prirodoslovno-graficka-zd/images/newsimg/385/File/OBAVIJEST%20ZA%20%C5%A0KOLE%202017.pdf">Obavijest za škole 2017.</a></p>
+</tr1>
+        
+<tr2>
+    <h2>Tagovi</h2>
+       <ul class="tag">
+        <li><a href="index.html">#smotra</a></li>
+        <li><a href="index1.html">#webdizajneri</a></li>
+        <li><a href="kontakt.html">#podaci</a></li>
+        <li><a href="kontakt.html">#karta</a></li>
+        <li><a href="index1.html">#medijskitehničari</a></li>
+        <li><a href="galerija.html">#slike</a></li>
+        <li><a href="index.html">#zadaci</a></li>
+        <li><a href="index1.html">#zadacasmotre</a></li>
+        <li><a href="kontakt.html">#kontakt</a></li>
+        <li><a href="index.html">#smjernice</a></li>
+
+    </ul>
+    
+</tr2>
+
+<tr4>
+    <h2>Podaci:</h2>
+    <p>Perivoj Vladimira Nazora 3, 23000 Zadar </p>
+            <p> Ravnatelj: Tomislav Grbin</p>
+            <p>Telefon: 023/ 213-746</p>
+            <p>e-mail: ured@pgszd.hr</p>
+
+            <p>Pedagoginja: 023/ 627-626 </p>
+            <p>Psihologinja: 023/ 627-626</p>
+
+        </tr4>
+   
+
+<footer>
+<p> &copy; Petra Jakopović 2017.</p>     
+</footer>         
+    </body>
+</html>
+
+

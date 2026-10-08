@@ -41,11 +41,7 @@ Tijekom razvoja korišteni su sljedeći alati i tehnologije:
 
 Dokumentacija projekta i prikaz rješenja dostupni su u PDF formatu:
 
-## Pregled i Demo
-
-Dokumentacija projekta i prikaz rješenja dostupni su u PDF formatu:
-
-* **Demo dokumentacija:** [smotra.pdf](https://github.com/PetriciaLee/Smotra/blob/main/smotra.pdf)
+* **Demo dokumentacija:** [smotra.pdf](https://github.com/PetriciaLee/Smotra/blob/main/assets/smotra.pdf)
 
 ## Pokretanje projekta
 

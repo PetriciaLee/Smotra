@@ -35,6 +35,7 @@ Tijekom razvoja korišteni su sljedeći alati i tehnologije:
 │   └── smotra.pdf
 ├── index.html
 └── README.md
+
 ```
 
 ## Pregled i Demo

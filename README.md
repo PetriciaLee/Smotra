@@ -32,7 +32,7 @@ Tijekom razvoja korišteni su sljedeći alati i tehnologije:
 ├── js/
 │   └── main.js
 ├── assets/
-│   └── asd.pdf
+│   └── smotra.pdf
 ├── index.html
 └── README.md
 ```
